@@ -1,5 +1,11 @@
-x = 0
+while True:
+    x = int(input())
+    count = 0
+    y = 1
 
-while x < 7:
-    x += 1
-    print(x)
+    while count < x:
+        count += 1
+        y *= count
+
+    else:
+        print(y)
